@@ -6,14 +6,13 @@ terraform {
     }
   }
 
-# Below block is used to specify backed as terraform cloud with organization and workspacename
-# feel free to change as per your environment.
-  cloud { 
+cloud { 
     
     organization = "ottone" 
 
     workspaces { 
-      name = "ottone-workspace" 
+      name = "ottone-workspace"
+
     } 
   } 
 }
