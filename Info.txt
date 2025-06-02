@@ -46,7 +46,24 @@ Initialize the Git repository and push your Terraform code to GitHub
 Now witness CI/CD with Github action + Terraform cloud + Git when we we push our code to the main branch in your repository.
 
 
+***Step 7*** Optional
+Set Up Environment Protection Rules
+
+Navigate to Your Repository Settings:
+Go to your GitHub repository.
+Click on Settings.
+Create a New Environment:
+In the left sidebar, click on Environments.
+Click the New environment button.
+Name your environment (e.g., development) and click Configure environment.
+Set Protection Rules:
+Required reviewers: Specify who can approve deployments to this environment. Eg Add your self as reviewer
+Wait timer: Add a wait timer if you want to delay the deployment.
+Required status checks: Ensure specific checks pass before deploying.
+
+
 Resource: 
 https://medium.com/@charandasar/automating-infrastructure-deployment-ci-cd-with-github-actions-terraform-cloud-and-terraform-3097ab76ac87
 
 https://www.youtube.com/watch?v=wGthv5gkuXk&t=152s
+
