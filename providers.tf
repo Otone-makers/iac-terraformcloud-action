@@ -8,7 +8,6 @@ terraform {
 
 # Below block is used to specify backed as terraform cloud with organization and workspacename
 # feel free to change as per your environment.
-
   cloud { 
     
     organization = "ottone" 
