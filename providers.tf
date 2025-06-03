@@ -8,7 +8,7 @@ terraform {
 
 cloud { 
     
-    organization = "ottone" 
+  organization = "ottone" 
 
     workspaces { 
       name = "ottone-workspace"
