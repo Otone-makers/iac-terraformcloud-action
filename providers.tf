@@ -5,10 +5,9 @@ terraform {
       version = "3.2.2"
     }
   }
-
-cloud { 
+  cloud { 
     
-  organization = "ottone" 
+    organization = "ottone" 
 
     workspaces { 
       name = "ottone-workspace"
